@@ -3493,8 +3493,8 @@ class er extends be {
         })
     }
 }
-function tr(r) {
-    let e, i, t, s, n, a, d, l = "Hi, I'm Malith!", f, o, p, c, u, m, v, w = "traits", g = "[] ", b, h, y = "malith", C = " =", E, A, M, _, k = "{", H, P, x, L = '<code id="typewriter" class="text-success"></code>', G, I, z, B = "}", F;
+function tr(r) { //box name
+    let e, i, t, s, n, a, d, l = "Hi, I'm Sahan!", f, o, p, c, u, m, v, w = "traits", g = "[] ", b, h, y = "Sahan", C = " =", E, A, M, _, k = "{", H, P, x, L = '<code id="typewriter" class="text-success"></code>', G, I, z, B = "}", F;
     return {
         c() {
             e = $("div"),
@@ -3658,7 +3658,7 @@ function tr(r) {
             N(z, F)
         },
         p(Z, [V]) {
-            V & 1 && !mt(t.src, s = "/anim/" + Z[0]) && Le(t, "src", s)
+            V & 1 && !mt(t.src, s = "/anime/" + Z[0]) && Le(t, "src", s)
         },
         i: ie,
         o: ie,
@@ -3668,12 +3668,12 @@ function tr(r) {
     }
 }
 function ir(r, e, i) {
-    let t = "godzilla.tgs";
-    const s = ["ghost.tgs", "dev.tgs", "godzilla.tgs", "godzilla.tgs", "ghost2.tgs", "godzilla.tgs", "dev.tgs", "dev.tgs", "godzilla.tgs", "dev.tgs"];
+    let t = "girl.tgs";  //home -stikcerand type section
+    const s = ["kungfu.tgs", "laug.tgs", "ghostmain.tgs", "muical.tgs", "yogalight.tgs", "death.tgs", "card.tgs", "callghost.tgs", "dessv.tgs", "AnimatedSticker.tgs"];
     return t = s[Math.floor(Math.random() * s.length)],
     yt(async () => {
         var n = 0
-          , a = "	developer, reader, melophile";
+          , a = "	developer, Network Operator, ";
         function d() {
             n < a.length && (document.getElementById("typewriter").innerHTML += a.charAt(n),
             n++,
@@ -10765,36 +10765,36 @@ const ra = () => {
 typeof window < "u" && (window.SwiperElementRegisterParams = r => {
     it.push(...r)
 }
-);
+);//ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්ප්project section
 const na = `[
 	{
 		"title": "LearniX AI",
 		"description": "Sri Lanka's 1st Sinhala-supported AI Learning Assistant, specialized in Physics, designed to enhance the educational experience with localized support.",
-		"link": "https://t.me/s/LearniX_AI/9",
+		"link": "@",
 		"image": "images/projects/LearniX.webp"
 	},
 	{
 		"title": "Suno AI",
 		"description": "A Python library and REST API utilizing the Suno AI for Generative Music Production. This open-source project is available on GitHub.",
-		"link": "https://github.com/Malith-Rukshan/Suno-API",
+		"link": "@",
 		"image": "images/projects/Suno-AI-API-Logo.webp"
 	},
 	{
 		"title": "Alpha V2ray",
 		"description": "Android VPN app based on V2ray, featuring super Cool UI and a strong community. Serving over 1 Million users, it ensures a free, fast, and secures connection.",
-		"link": "https://play.google.com/store/apps/details?id=com.sdev.alphav2ray&hl=en&gl=US",
+		"link": "@",
 		"image": "images/projects/AlphaV2ray.webp"
 	},
 	{
 		"title": "AP.LK",
 		"description": "Sri Lanka's leading AI-powered LMS with features like Student AI Helper and Marks Analysis, serving 100,000 students with a dynamic, visually engaging experience.",
-		"link": "https://ap.lk",
+		"link": "@",
 		"image": "images/projects/AP.LK.webp"
 	},
 	{
 		"title": "Receive SMS Bot",
 		"description": "A powerful Telegram bot providing free SMS numbers from over 40 countries. It features a user-friendly interface, and is used by over 1.5 million users globally.",
-		"link": "https://t.me/ReceiveSMSRobot",
+		"link": "@",
 		"image": "images/projects/ReceiveSMSRobot.webp"
 	}
 ]
@@ -10804,8 +10804,8 @@ function ys(r, e, i) {
     return t[2] = e[i],
     t
 }
-function Ss(r) {
-    let e, i, t, s = "Ooops!", n, a, d = "Looks like there's nothing here.", l, f, o = "Retry", p, c, u;
+function Ss(r) { //error messsage
+    let e, i, t, s = "", n, a, d = "", l, f, o = "", p, c, u;
     return {
         c() {
             e = $("div"),
@@ -11134,7 +11134,7 @@ function aa(r) {
 function la(r, e, i) {
     let t = [];
     async function s() {
-        i(0, t = await fetch("https://api.github.com/users/Malith-Rukshan/repos?sort=stars&direction=desc&per_page=100").then(n => n.json())),
+        i(0, t = await fetch("").then(n => n.json())),
         t.sort( (n, a) => a.stargazers_count - n.stargazers_count).filter(n => !n.fork)
     }
     return yt(async () => {
@@ -11289,8 +11289,8 @@ function Ts(r) {
         }
     }
 }
-function da(r) {
-    let e, i, t = '<tgs-player autoplay="" loop="" src="/anim/projects.tgs" style="width: 30px; height: 30px;"></tgs-player> <h1 class="text-4xl ml-2">Projects</h1>', s, n, a, d, l, f, o = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg> GitHub Projects', p, c, u, m, v, w, g, b = ee(r[0]), h = [];
+function da(r) {  //project stikcer
+    let e, i, t = '<tgs-player autoplay="" loop="" src="/anim/death.tgs" style="width: 30px; height: 30px;"></tgs-player> <h1 class="text-4xl ml-2">Projects</h1>', s, n, a, d, l, f, o = '', p, c, u, m, v, w, g, b = ee(r[0]), h = [];
     for (let y = 0; y < b.length; y += 1)
         h[y] = Ts(_s(r, b, y));
     return w = new oa({}),
@@ -11509,13 +11509,13 @@ const pa = `[
 		"link": "https://telegram.org"
 	}
 ]
-`
-  , ua = `[
+`//Experience section
+  , ua = `[ 
 	{
-		"institution": "University of Moratuwa",
-		"role": "Computer Science & Engineering",
-		"location": "Moratuwa, LK",
-		"duration": "2024 - Current",
+		"institution": "University Of Colombo ",
+		"role": "Bachelor Of Information Technology",
+		"location": "Colombo,Lk ",
+		"duration": "2024 - Crunnt",
 		"short": "mora"
 	},
 	{
@@ -11966,7 +11966,7 @@ class ga extends be {
         ye(this, e, ha, ma, ve, {})
     }
 }
-function va(r) {
+function va(r) {//activity
     let e, i = `<a class="inline-flex items-center justify-left w-full my-12" href="#activity" id="activity"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> <h1 class="text-3xl ml-2">Activity</h1></a> <div class="flex flex-wrap items-center justify-around mx-6 w-full"><div class="mockup-window bg-base-300 lg:max-w-screen-xl w-full"><p class="p-4">As a passionate melophile, music is an integral part of my
 				coding journey. It&#39;s not just a background element but a
 				profound catalyst that significantly enhances my focus and
@@ -11975,7 +11975,7 @@ function va(r) {
 				demanding coding sessions into serene and enjoyable experiences.
 				Below is a curated selection of my favorite tracks that
 				accompany me while I work. Dive into the soothing sounds and
-				perhaps, discover your new coding anthem!</p> <div class="flex justify-center p-4 border-t border-base-300"><iframe title="Spotify embed" src="https://open.spotify.com/embed/playlist/7poBqi6Yylixny6ZQ7LuLW?utm_source=malith.dev&amp;theme=0" width="100%" height="500" frameborder="0" class="rounded-xl" allow="encrypted-media"></iframe></div></div></div>`;
+				perhaps, discover your new coding anthem!</p> <div class="flex justify-center p-4 border-t border-base-300"><iframe title="Spotify embed" src="https://open.spotify.com/embed/playlist/1sw3nISJ6cJZct0kfHLYyk?utm_source=generator&theme=0" width="100%" height="500" frameborder="0" class="rounded-xl" allow="encrypted-media"></iframe></div></div></div>`;
     return {
         c() {
             e = $("div"),
@@ -12010,9 +12010,9 @@ class wa extends be {
         ye(this, e, null, va, ve, {})
     }
 }
-function ba(r) {
-    let e, i = `<a class="inline-flex items-center justify-left w-full my-12" href="#about" id="about"><tgs-player autoplay="" loop="" src="/anim/search.tgs" style="width: 30px; height: 30px;"></tgs-player> <h1 class="text-3xl ml-2">About</h1></a> <div class="flex flex-wrap w-full"><p class="mb-3">I&#39;m Malith Rukshan, a Full-stack Software Developer from Sri Lanka
-			and the owner of <a href="https://SingleDevelopers.com" class="text-blue-500">Single Developers</a> Company. I specialize in developing
+function ba(r) { //about tag and titile
+    let e, i = `<a class="inline-flex items-center justify-left w-full my-12" href="#about" id="about"><tgs-player autoplay="" loop="" src="/anim/kungfu.tgs" style="width: 30px; height: 30px;"></tgs-player> <h1 class="text-3xl ml-2">About</h1></a> <div class="flex flex-wrap w-full"><p class="mb-3">I&#39;m Sahan, a Full-stack Software Developer from Sri Lanka
+			and the owner of <a href="https://t.me/SAHANehi" class="text-blue-500">unlimited data kingdom</a> Company. I specialize in developing
 			Android and iOS mobile apps, Web applications, AI-based solutions, Telegram Bots, Windows applications, 
 			Websites and backend development and API tools. With a strong commitment to
 			open-source projects, I bring extensive experience in Swift,
@@ -12021,7 +12021,7 @@ function ba(r) {
 			projects, explore the <a href="#projects" class="text-blue-400">links provided</a>. Stay connected with me on
 			social media for the latest updates on my work and insights. Let&#39;s
 			connect and create something amazing together!</p> <h3 class="font-bold text-lg mb-6">Technologies &amp; Credits</h3> <div class="overflow-x-auto w-full"><table class="table table-zebra w-full"><thead><tr><th></th> <th>Source</th> <th>Description</th></tr></thead> <tbody><tr><td><img class="w-6 h-6 min-w-[1rem] object-contain" src="/images/about/svelte.webp" alt="Source logo"/></td> <th><a href="https://kit.svelte.dev/">SvelteKit</a></th> <th>Front-end framework</th></tr> <tr><td><img class="w-6 h-6 min-w-[1rem] object-contain" src="/images/about/tailwind.webp" alt="Source logo"/></td> <th><a href="https://tailwindcss.com/">TailwindCSS</a></th> <th>CSS framework</th></tr> <tr><td><img class="w-6 h-6 min-w-[1rem] object-contain" src="/images/about/daisy.ico" alt="Source logo"/></td> <th><a href="https://daisyui.com/">DaisyUI</a></th> <th>Component library</th></tr> <tr><td><img class="w-6 h-6 min-w-[1rem] object-contain" src="/images/about/telegram.webp" alt="Source logo"/></td> <th><a href="https://core.telegram.org/stickers">Telegram Stickers</a></th> <th>Creative Animations</th></tr></tbody></table></div></div>`;
-    return {
+    return {//about and tech section
         c() {
             e = $("div"),
             e.innerHTML = i,
@@ -12055,8 +12055,8 @@ class ya extends be {
         ye(this, e, null, ba, ve, {})
     }
 }
-function Sa(r) {
-    let e, i = '<div class="items-center grid-flow-col"><img width="24" height="24" src="apple-touch-icon.png" alt="Single Developers logo"/></div> <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end"><a href="mailto:hello.malith.dev"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a> <a href="https://github.com/Malith-Rukshan"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a> <a href="https://www.linkedin.com/in/malith-rukshan"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a> <a href="https://t.me/MalithRukshan"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M22.05 1.577c-.393-.016-.784.08-1.117.235-.484.186-4.92 1.902-9.41 3.64-2.26.873-4.518 1.746-6.256 2.415-1.737.67-3.045 1.168-3.114 1.192-.46.16-1.082.362-1.61.984-.133.155-.267.354-.335.628s-.038.622.095.895c.265.547.714.773 1.244.976 1.76.564 3.58 1.102 5.087 1.608.556 1.96 1.09 3.927 1.618 5.89.174.394.553.54.944.544l-.002.02s.307.03.606-.042c.3-.07.677-.244 1.02-.565.377-.354 1.4-1.36 1.98-1.928l4.37 3.226.035.02s.484.34 1.192.388c.354.024.82-.044 1.22-.337.403-.294.67-.767.795-1.307.374-1.63 2.853-13.427 3.276-15.38l-.012.046c.296-1.1.187-2.108-.496-2.705-.342-.297-.736-.427-1.13-.444zm-.118 1.874c.027.025.025.025.002.027-.007-.002.08.118-.09.755l-.007.024-.005.022c-.432 1.997-2.936 13.9-3.27 15.356-.046.196-.065.182-.054.17-.1-.015-.285-.094-.3-.1l-7.48-5.525c2.562-2.467 5.182-4.7 7.827-7.08.468-.235.39-.96-.17-.972-.594.14-1.095.567-1.64.84-3.132 1.858-6.332 3.492-9.43 5.406-1.59-.553-3.177-1.012-4.643-1.467 1.272-.51 2.283-.886 3.278-1.27 1.738-.67 3.996-1.54 6.256-2.415 4.522-1.748 9.07-3.51 9.465-3.662l.032-.013.03-.013c.11-.05.173-.055.202-.057 0 0-.01-.033-.002-.026zM10.02 16.016l1.234.912c-.532.52-1.035 1.01-1.398 1.36z"></path></svg></a></div>';
+function Sa(r) { //footer
+    let e, i = '<div class="items-center grid-flow-col"><img width="24" height="24" src="mainlogo.png" alt="Sahanlogo"/></div> <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end"><a href="mailto:sahanjay31@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a> <a href=""@about""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a> <a href="@"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a> <a href="https://t.me/Sahanwickramasinghe"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M22.05 1.577c-.393-.016-.784.08-1.117.235-.484.186-4.92 1.902-9.41 3.64-2.26.873-4.518 1.746-6.256 2.415-1.737.67-3.045 1.168-3.114 1.192-.46.16-1.082.362-1.61.984-.133.155-.267.354-.335.628s-.038.622.095.895c.265.547.714.773 1.244.976 1.76.564 3.58 1.102 5.087 1.608.556 1.96 1.09 3.927 1.618 5.89.174.394.553.54.944.544l-.002.02s.307.03.606-.042c.3-.07.677-.244 1.02-.565.377-.354 1.4-1.36 1.98-1.928l4.37 3.226.035.02s.484.34 1.192.388c.354.024.82-.044 1.22-.337.403-.294.67-.767.795-1.307.374-1.63 2.853-13.427 3.276-15.38l-.012.046c.296-1.1.187-2.108-.496-2.705-.342-.297-.736-.427-1.13-.444zm-.118 1.874c.027.025.025.025.002.027-.007-.002.08.118-.09.755l-.007.024-.005.022c-.432 1.997-2.936 13.9-3.27 15.356-.046.196-.065.182-.054.17-.1-.015-.285-.094-.3-.1l-7.48-5.525c2.562-2.467 5.182-4.7 7.827-7.08.468-.235.39-.96-.17-.972-.594.14-1.095.567-1.64.84-3.132 1.858-6.332 3.492-9.43 5.406-1.59-.553-3.177-1.012-4.643-1.467 1.272-.51 2.283-.886 3.278-1.27 1.738-.67 3.996-1.54 6.256-2.415 4.522-1.748 9.07-3.51 9.465-3.662l.032-.013.03-.013c.11-.05.173-.055.202-.057 0 0-.01-.033-.002-.026zM10.02 16.016l1.234.912c-.532.52-1.035 1.01-1.398 1.36z"></path></svg></a></div>';
     return {
         c() {
             e = $("footer"),
@@ -12092,7 +12092,7 @@ class Ea extends be {
     }
 }
 function _a(r) {
-    let e, i, t, s = '<img width="42" height="42" src="apple-touch-icon.png" alt="Single Developers logo" class="logo z-10 cursor-pointer h-8 w-8 fixed top-5 left-6 svelte-131jrwf" style="transition: transform 0.4s;"/>', n, a, d, l, f, o, p, c, u, m, v, w, g, b, h, y, C, E, A, M, _, k, H, P, x, L, G;
+    let e, i, t, s = '<img width="42" height="42" src="mainlogo.png" alt="Solo Programmer logo"  class="logo z-10 cursor-pointer h-8 w-8 fixed top-5 left-6 svelte-131jrwf"  style="transition: transform 0.4s;"/>', n, a, d, l, f, o, p, c, u, m, v, w, g, b, h, y, C, E, A, M, _, k, H, P, x, L, G;
     return a = new er({}),
     l = new sr({}),
     c = new fa({}),
@@ -12101,31 +12101,7 @@ function _a(r) {
     M = new ya({}),
     k = new Ea({}),
     P = new Ks({
-        props: {
-            title: "Malith Rukshan",
-            titleTemplate: "%s | Software Developer",
-            description: "Malith Rukshan - Software Developer from Sri Lanka. Founder of Single Developers </>",
-            canonical: "https://malith.dev",
-            openGraph: {
-                url: "https://malith.dev",
-                title: "Malith Rukshan",
-                description: "Malith Rukshan - Software Developer from Sri Lanka. Founder of Single Developers </>",
-                images: [{
-                    url: "/images/openGraph/Malith.dev-800x600.webp",
-                    width: 800,
-                    height: 600,
-                    alt: "Website preview"
-                }, {
-                    url: "/images/openGraph/Malith.dev-900x800.webp",
-                    width: 900,
-                    height: 800,
-                    alt: "Website preview"
-                }, {
-                    url: "/images/openGraph/Malith.dev-Preview.webp"
-                }],
-                siteName: "malith"
-            }
-        }
+       
     }),
     {
         c() {
@@ -12210,7 +12186,7 @@ function _a(r) {
             this.h()
         },
         h() {
-            document.title = "Malith Rukshan",
+            document.title = "Sahan",//title
             S(i, "class", "h-0 m-0"),
             S(o, "class", "divider"),
             S(m, "class", "divider"),
@@ -12310,6 +12286,7 @@ function Ta() {
         behavior: "smooth"
     })
 }
+
 class Ca extends be {
     constructor(e) {
         super(),
