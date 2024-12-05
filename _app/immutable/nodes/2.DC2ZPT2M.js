@@ -11519,16 +11519,16 @@ const pa = `[
 		"short": "mora"
 	},
 	{
-		"institution": "SLIIT City Uni",
+		"institution": "University Of Colombo Uni",
 		"role": "CS & Software Engineering",
 		"location": "Colombo, LK",
-		"duration": "2023 - Current",
+		"duration": "2024 - Current",
 		"short": "uni"
 	},
 	{
 		"institution": "G.C.E A/L",
-		"role": "Maths, Phy6 & Chem",
-		"location": "Anuradhapura, LK",
+		"role": "Commerce+Ict",
+		"location": "PANADURA, LK",
 		"duration": "2018 - 2022",
 		"short": "al"
 	}
